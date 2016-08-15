@@ -18,7 +18,7 @@ function stackJack(playerOne, playerTwo) {
   if (playerOneScore > playerTwoScore) {
     msg = "Player 1 wins " + playerOneScore + " to " + playerTwoScore + "!";
   } else if (playerOneScore < playerTwoScore) {
-    msg = "Player 2 wins " + playerTwoScore + " to " + playerOneScore;
+    msg = "Player 2 wins " + playerTwoScore + " to " + playerOneScore + "!";
   } else {
     msg = "Tie!";
   }
